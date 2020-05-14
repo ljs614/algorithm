@@ -9,6 +9,7 @@ import (
 func main() {
 	list := []int{1, 10, 5, 8, 7, 6, 4, 3, 2, 9}
 	// sort.SelectionSort(list)
-	sort.BubbleSort(list)
+	// sort.BubbleSort(list)
+	sort.InsertionSort(list)
 	fmt.Println(list)
 }
