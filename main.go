@@ -13,6 +13,7 @@ func main() {
 	// sort.InsertionSort(list)
 	// sort.QuickSort(list, 0, len(list)-1)
 	// sort.QuickSortDesc(list, 0, len(list)-1)
-	sort.MergeSort(list, 0, len(list)-1)
+	// sort.MergeSort(list, 0, len(list)-1)
+	sort.HeapSort(list)
 	fmt.Println(list)
 }
